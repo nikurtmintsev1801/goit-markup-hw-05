@@ -463,5 +463,56 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <button class="close-modal" type="button">
+          <svg class="close-modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <form>
+          <div class="form-field-wrapper">
+            <label class="lable-field" for="username">Name</label>
+            <input
+              class="text-field"
+              type="text"
+              id="username"
+              name="username"
+            />
+          </div>
+          <div class="form-field-wrapper">
+            <label class="lable-field" for="usertel">Phone</label>
+            <input class="text-field" type="tel" id="usertel" name="usertel" />
+          </div>
+          <div class="form-field-wrapper">
+            <label class="lable-field" for="useremail">Email</label>
+            <input
+              class="text-field"
+              type="email"
+              id="useremail"
+              name="useremail"
+            />
+          </div>
+          <div class="form-field-wrapper">
+            <label class="lable-field" for="comment">Comment</label>
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div>
+            <input type="checkbox" id="policy" name="policy" value="accepted" />
+            <label for="policy"
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
