@@ -521,7 +521,7 @@ hide-modal {
   padding-top: 72px;
   padding-left: 24px;
   padding-right: 24px;
-  width: 480px;
+  width: 408px;
   min-height: 584px;
   border-radius: 4px;
   transform: translate(-50%, -50%);
@@ -554,6 +554,7 @@ hide-modal {
   cursor: pointer;
   border: none;
   padding: 0;
+
   display: flex;
   align-items: center;
   justify-content: center;
